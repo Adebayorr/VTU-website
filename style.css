@@ -2,12 +2,29 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .our-services{
     height: 863px ;
     width: 1920px;
     background-color: #3D39B3;
+    
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+
+
+
+
+    
+
+    /* Fatai's Section */
+
+
+
 }
 /* 
 Font family ==> Roboto
