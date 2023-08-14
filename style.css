@@ -188,11 +188,11 @@ h1{
 .features {
   text-align: left;
 }
-.pricing-box {
+.pricing-box {          
   width: 20%;
   height: 419px;
   border-radius: 1.07rem;
-  box-shadow: 5px 5px 2px #3D39B3;
+  box-shadow: 3.5px 4px 5px 4px #3D39B3;
   font-family: "Roboto", sans-serif;
   padding: 2.4rem .5rem;
 }
@@ -213,3 +213,29 @@ h1{
   color: #F9F9F9;
   background: #3D39B3;
 }
+
+.price {
+  font-size: 75px;
+  margin: 1rem 0;
+}
+
+.price  > .per-month {
+  font-size: 20px
+}
+
+.get-started {
+  all: unset;
+  width: 150px;
+  margin: 1rem 0;
+  padding: .6rem .4rem;
+  font-weight: bold;
+  background-color: #3D39B3;
+  color: #F9F9F9;
+}
+
+#get-started {
+  background-color: #F9F9F9;
+  border: 2px solid #3D39B3;
+  color: #3D39B3;
+}
+
