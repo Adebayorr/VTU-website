@@ -139,3 +139,35 @@ h1{
     padding:.476rem 1.8rem;
     color: #3D39B3;
   }
+
+.our-prices {
+  background: #F9F9F9;
+  text-align: center;
+  width: 100%;
+}
+
+.pricing-title {
+  font-size: 2.285rem;
+  color: #3D39B3;
+  font-weight: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.pricing-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5rem 0rem;
+}
+
+.features li, .features-wrapper  {
+  list-style: none;
+  margin: 0;
+}
+
+.pricing-box {
+  width: 20%;
+  height: 419px;
+  border-radius: 1.07rem;
+  box-shadow: 5px 5px 2px #3D39B3;
+}
