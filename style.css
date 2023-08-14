@@ -161,13 +161,36 @@ h1{
 }
 
 .features li, .features-wrapper  {
-  list-style: none;
+  /* list-style: none; */
+  padding: 0;
   margin: 0;
 }
 
+.features {
+  text-align: left;
+}
 .pricing-box {
   width: 20%;
   height: 419px;
   border-radius: 1.07rem;
   box-shadow: 5px 5px 2px #3D39B3;
+  font-family: "Roboto", sans-serif;
+  padding: 2.4rem .5rem;
+}
+
+.network {
+  padding: .4rem .4rem;
+  text-align: center;
+  width: 103px;
+  color: #3D39B3;
+  margin-bottom: 30px;
+  font-size: 16px;
+  background-color: #F9F9F9;
+  border-radius: 7px;
+  border: 2px solid #3D39B3;
+}
+
+#network-even {
+  color: #F9F9F9;
+  background: #3D39B3;
 }
