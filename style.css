@@ -15,17 +15,36 @@ Color ==> Primary = #3D39B3; white = #F9F9F9; links and logo = #1E1E1E;
     
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
 .our-services{
-    height: 863px ;
-    width: 1920px;
+    height: 75vh ;
+    width: 100%;
     background-color: #3D39B3;
     
 }
 
+.our-services h1{
+    color: white;
+}
+
 .our-services-card{
-    height: 719px;
-    width: 347px;
+    height: 100%;
+    width: 18%;
     background-color: white;
+    border-radius: 1.56rem;
+    margin-top: 3rem;
+   
+}
+
+.our-services-card img{
+    display: block;
+    height: 95%;
+    width: 90%;
+    padding-top: 2rem;
 }
 
 h1{
