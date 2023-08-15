@@ -239,3 +239,33 @@ h1{
   color: #3D39B3;
 }
 
+.clients {
+  min-height: 40rem;
+  padding: 10rem 1rem 0 1rem;
+  text-align: center;
+  background: linear-gradient(200deg, #0803A4, #284CC4, #04006E);
+}
+
+.clients-title {
+  color: #F9F9F9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin-bottom: 109px;
+}
+
+.clients-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  width: 90%;
+}
+
+.client {
+  /* padding: 2rem; */
+  width: 159px;
+  height: 159px;
+  background-color: #F9F9F9;
+  border-radius: 15px;
+}
+
