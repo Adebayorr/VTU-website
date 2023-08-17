@@ -18,7 +18,6 @@ Color ==> Primary = #3D39B3; white = #F9F9F9; links and logo = #1E1E1E;
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #F9F9F9;
 }
 
 .our-services{
@@ -36,11 +35,9 @@ body{
     height: 80%;
     width: 15%;
     background-color: white;
-    border-radius: 1.3rem;
-    margin-top: 6rem;
-    position: absolute;
-    /* left: 50; */
-    right: 42.5%;
+    border-radius: 1.56rem;
+    margin-top: 3rem;
+   
 }
 
 .our-services-card img{
@@ -49,32 +46,6 @@ body{
     width: 98%;
     padding-top: 2rem;
 }
-
-#anchor1{
-  position: absolute;
-  top: -7%;
-  right: -89%;
-}
-
-#anchor2{
-  position: absolute;
-  top: -7%;
-  left: -89%;
-}
-
-#anchor3{
-  position: absolute;
-  top: 20%;
-  left: 90%;
-}
-
-
-#anchor4{
-  position: absolute;
-  top: 20%;
-  right: 90%;
-}
-
 
 h1{
     font-size: 32px;
@@ -192,7 +163,6 @@ h1{
   background: #F9F9F9;
   text-align: center;
   width: 100%;
-  margin-top: 7rem;
 }
 
 .pricing-title {
@@ -218,79 +188,5 @@ h1{
   width: 20%;
   height: 419px;
   border-radius: 1.07rem;
-  box-shadow: 3.5px 4px 5px 4px #3D39B3;
-  font-family: "Roboto", sans-serif;
-  padding: 2.4rem .5rem;
-}
-
-.network {
-  padding: .4rem .4rem;
-  text-align: center;
-  width: 103px;
-  color: #3D39B3;
-  margin-bottom: 30px;
-  font-size: 16px;
-  background-color: #F9F9F9;
-  border-radius: 7px;
-  border: 2px solid #3D39B3;
-}
-
-#network-even {
-  color: #F9F9F9;
-  background: #3D39B3;
-}
-
-.price {
-  font-size: 75px;
-  margin: 1rem 0;
-}
-
-.price  > .per-month {
-  font-size: 20px
-}
-
-.get-started {
-  all: unset;
-  width: 150px;
-  margin: 1rem 0;
-  padding: .6rem .4rem;
-  font-weight: bold;
-  background-color: #3D39B3;
-  color: #F9F9F9;
-}
-
-#get-started {
-  background-color: #F9F9F9;
-  border: 2px solid #3D39B3;
-  color: #3D39B3;
-}
-
-.clients {
-  min-height: 40rem;
-  padding: 10rem 1rem 0 1rem;
-  text-align: center;
-  background: linear-gradient(200deg, #0803A4, #284CC4, #04006E);
-}
-
-.clients-title {
-  color: #F9F9F9;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  margin-bottom: 109px;
-}
-
-.clients-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 60px;
-  width: 90%;
-}
-
-.client {
-  /* padding: 2rem; */
-  width: 159px;
-  height: 159px;
-  background-color: #F9F9F9;
-  border-radius: 15px;
+  box-shadow: 5px 5px 2px #3D39B3;
 }
