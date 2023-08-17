@@ -50,6 +50,32 @@ body{
     padding-top: 2rem;
 }
 
+#anchor1{
+  position: absolute;
+  top: -7%;
+  right: -89%;
+}
+
+#anchor2{
+  position: absolute;
+  top: -7%;
+  left: -89%;
+}
+
+#anchor3{
+  position: absolute;
+  top: 20%;
+  left: 90%;
+}
+
+
+#anchor4{
+  position: absolute;
+  top: 20%;
+  right: 90%;
+}
+
+
 h1{
     font-size: 32px;
     text-align: center;
