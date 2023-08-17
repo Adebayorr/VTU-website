@@ -18,7 +18,6 @@ Color ==> Primary = #3D39B3; white = #F9F9F9; links and logo = #1E1E1E;
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #F9F9F9;
 }
 
 .our-services{
@@ -36,11 +35,9 @@ body{
     height: 80%;
     width: 15%;
     background-color: white;
-    border-radius: 1.3rem;
-    margin-top: 6rem;
-    position: absolute;
-    /* left: 50; */
-    right: 42.5%;
+    border-radius: 1.56rem;
+    margin-top: 3rem;
+   
 }
 
 .our-services-card img{
@@ -49,32 +46,6 @@ body{
     width: 98%;
     padding-top: 2rem;
 }
-
-#anchor1{
-  position: absolute;
-  top: -7%;
-  right: -89%;
-}
-
-#anchor2{
-  position: absolute;
-  top: -7%;
-  left: -89%;
-}
-
-#anchor3{
-  position: absolute;
-  top: 20%;
-  left: 90%;
-}
-
-
-#anchor4{
-  position: absolute;
-  top: 20%;
-  right: 90%;
-}
-
 
 h1{
     font-size: 32px;
@@ -192,7 +163,6 @@ h1{
   background: #F9F9F9;
   text-align: center;
   width: 100%;
-  margin-top: 7rem;
 }
 
 .pricing-title {
