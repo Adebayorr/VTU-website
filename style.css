@@ -18,13 +18,14 @@ Color ==> Primary = #3D39B3; white = #F9F9F9; links and logo = #1E1E1E;
 body{
     width: 100vw;
     height: 100vh;
+    background-color: #F9F9F9;
 }
 
 .our-services{
-    height: 75vh ;
+    height: 90vh ;
     width: 100%;
     background-color: #3D39B3;
-    
+    /* position: absolute; */
 }
 
 .our-services h1{
@@ -32,20 +33,48 @@ body{
 }
 
 .our-services-card{
-    height: 100%;
-    width: 18%;
+    height: 80%;
+    width: 15%;
     background-color: white;
-    border-radius: 1.56rem;
-    margin-top: 3rem;
-   
+    border-radius: 1.3rem;
+    margin-top: 6rem;
+    position: absolute;
+    /* left: 50; */
+    right: 42.5%;
 }
 
 .our-services-card img{
     display: block;
-    height: 95%;
-    width: 90%;
+    height: 98%;
+    width: 98%;
     padding-top: 2rem;
 }
+
+#anchor1{
+  position: absolute;
+  top: -7%;
+  right: -89%;
+}
+
+#anchor2{
+  position: absolute;
+  top: -7%;
+  left: -89%;
+}
+
+#anchor3{
+  position: absolute;
+  top: 20%;
+  left: 90%;
+}
+
+
+#anchor4{
+  position: absolute;
+  top: 20%;
+  right: 90%;
+}
+
 
 h1{
     font-size: 32px;
@@ -163,6 +192,7 @@ h1{
   background: #F9F9F9;
   text-align: center;
   width: 100%;
+  margin-top: 7rem;
 }
 
 .pricing-title {
@@ -180,62 +210,13 @@ h1{
 }
 
 .features li, .features-wrapper  {
-  /* list-style: none; */
-  padding: 0;
+  list-style: none;
   margin: 0;
 }
 
-.features {
-  text-align: left;
-}
-.pricing-box {          
+.pricing-box {
   width: 20%;
   height: 419px;
   border-radius: 1.07rem;
-  box-shadow: 3.5px 4px 5px 4px #3D39B3;
-  font-family: "Roboto", sans-serif;
-  padding: 2.4rem .5rem;
+  box-shadow: 5px 5px 2px #3D39B3;
 }
-
-.network {
-  padding: .4rem .4rem;
-  text-align: center;
-  width: 103px;
-  color: #3D39B3;
-  margin-bottom: 30px;
-  font-size: 16px;
-  background-color: #F9F9F9;
-  border-radius: 7px;
-  border: 2px solid #3D39B3;
-}
-
-#network-even {
-  color: #F9F9F9;
-  background: #3D39B3;
-}
-
-.price {
-  font-size: 75px;
-  margin: 1rem 0;
-}
-
-.price  > .per-month {
-  font-size: 20px
-}
-
-.get-started {
-  all: unset;
-  width: 150px;
-  margin: 1rem 0;
-  padding: .6rem .4rem;
-  font-weight: bold;
-  background-color: #3D39B3;
-  color: #F9F9F9;
-}
-
-#get-started {
-  background-color: #F9F9F9;
-  border: 2px solid #3D39B3;
-  color: #3D39B3;
-}
-
