@@ -21,7 +21,7 @@ body{
 }
 
 .our-services{
-    height: 90vh ;
+    height: 108vh ;
     width: 100%;
     background-color: #3D39B3;
     /* position: absolute; */
@@ -32,26 +32,86 @@ body{
 }
 
 .our-services-card{
-    height: 80%;
-    width: 15%;
+    /* height: 80%; */
+    width: 20%;
     background-color: white;
-    border-radius: 1.56rem;
-    margin-top: 3rem;
-   
+    border-radius: 1.3rem;
+    margin-top: 8rem;
+    position: absolute;
+    /* left: 50; */
+    right: 40%;
+
 }
 
 .our-services-card img{
     display: block;
-    height: 98%;
-    width: 98%;
+    height: 80%;
+    width: 90%;
     padding-top: 2rem;
 }
+
+#anchor1{
+  position: absolute;
+  top: -7%;
+  right: -89%;
+}
+
+#anchor2{
+  position: absolute;
+  top: -7%;
+  left: -89%;
+}
+
+#anchor3{
+  position: absolute;
+  top: 20%;
+  left: 90%;
+}
+
+
+#anchor4{
+  position: absolute;
+  top: 20%;
+  right: 90%;
+}
+
 
 h1{
     font-size: 32px;
     text-align: center;
 
 
+}
+
+/* CONTACT US  */
+#contact_us_text{
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.contact_us_section{
+ height: 70vh;
+ /* background-color: yellow; */
+}
+
+.contact_us_form_container{
+  /* background-color:  black; */
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 70%;
+}
+.contact_div{
+  /* background-color: red; */
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.message_div{
+  /* background-color: red; */
+  width: 40%;
+  height: 80%;
 }
 
 
