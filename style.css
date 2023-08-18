@@ -21,14 +21,17 @@ body{
 }
 
 .our-services{
-    height: 108vh ;
+    height: 103vh ;
     width: 100%;
     background-color: #3D39B3;
-    /* position: absolute; */
+    position: relative;
 }
 
 .our-services h1{
     color: white;
+    position: absolute;
+    left: 43%;
+    top: 10%;
 }
 
 .our-services-card{
@@ -52,28 +55,82 @@ body{
 
 #anchor1{
   position: absolute;
-  top: -7%;
-  right: -89%;
+  top: 3%;
+  right: -79%;
 }
 
 #anchor2{
   position: absolute;
-  top: -7%;
-  left: -89%;
+  top: 3%;
+  left: -79%;
 }
 
 #anchor3{
   position: absolute;
-  top: 20%;
-  left: 90%;
+  top: 25%;
+  left: 88%;
+  
 }
 
 
 #anchor4{
   position: absolute;
-  top: 20%;
-  right: 90%;
+  top: 25%;
+  right: 88%;
 }
+
+.anchor_text_box{
+  background-color: white;
+  position: absolute;
+  width: 15rem;
+  height: 5.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  /* display: block; */
+}
+
+.num_tag{
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  background-color: #FFF12C;
+  position: absolute;
+  left: 0.4rem;
+}
+.num_tag p{
+   text-align: center;
+   position: absolute;
+   left: -0.9rem;
+}
+
+.anchor_text_box p{
+  font-size: 0.9rem;
+  padding-left: 1.3rem;
+}
+
+#anchor_box1{
+  bottom: 45%;
+  left: 7%;
+}
+
+#anchor_box2{
+  bottom: 45%;
+  right: 7%;
+}
+
+#anchor_box3{
+  bottom: 15%;
+  left: 7.3%;
+}
+
+
+#anchor_box4{
+  bottom: 15%;
+  right: 7.3%;
+}
+
+
+
 
 
 h1{
@@ -89,32 +146,44 @@ h1{
   padding-bottom: 1rem;
 }
 .contact_us_section{
- height: 70vh;
- /* background-color: yellow; */
+ height: 100vh;
+ background-color: F9F9F9;
 }
 
 .contact_us_form_container{
-  /* background-color:  black; */
+  background-color:  black;
   display: flex;
   flex-direction: row;
   width: 80%;
   height: 70%;
 }
 .contact_div{
-  /* background-color: red; */
+  background-color: red;
+  margin-top: 5rem;
   width: 40%;
-  height: 80%;
+  height: 70%;
   display: flex;
   flex-direction: row;
 }
 
 .message_div{
-  /* background-color: red; */
+  background-color: red;
+  margin-top: 5rem;
   width: 40%;
-  height: 80%;
+  height: 70%;
 }
 
+form{
+  margin-top: 1.5rem;
+}
 
+input{
+  width: 6rem;
+}
+
+.userName{
+  margin-right: 2rem;
+}
 
 
 
@@ -167,7 +236,7 @@ h1{
   }
 
   .hero {
-    background: #F9F9F9;
+    background: #F9F9F9; 
     width: 100%;
     height: calc(100vh - 5rem);
     display: flex;
@@ -190,6 +259,10 @@ h1{
     margin-bottom: 2rem;
     font-size: 3rem;
     font-family: "Roboto", sans-serif;
+  }
+
+  .hero-right {
+    position: relative;
   }
 
   .btn {
