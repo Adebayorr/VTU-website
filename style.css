@@ -261,6 +261,10 @@ input{
     font-family: "Roboto", sans-serif;
   }
 
+  .hero-right {
+    position: relative;
+  }
+
   .btn {
     all: unset;
     font-size: 1.2rem;
