@@ -265,12 +265,34 @@ input{
     position: relative;
   }
 
+  .hero-polygon {
+    position: absolute;
+    right: 14%;
+    top: 12%;
+    width: 699px;
+    height: 588px;
+    z-index: 2;
+  }
+
+  .hero-image {
+    position: absolute;
+    bottom: 0;
+    width: 426px;
+    height: 630px;
+    z-index: 3;
+  }
+
+
+
   .btn {
-    all: unset;
+    /* all: unset; */
+    text-decoration: none;
     font-size: 1.2rem;
     /* padding: .5rem 1.2rem; */
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    cursor: pointer;
+    /* margin-top: 24px; */
   }
 
   .btn:hover {
@@ -286,7 +308,7 @@ input{
 
   .btn-second {
     border: 2px solid #3D39B3;
-    margin-left: 4rem;
+    margin-left: 114px;
     padding:.476rem 1.8rem;
     color: #3D39B3;
   }
@@ -295,9 +317,12 @@ input{
   background: #F9F9F9;
   text-align: center;
   width: 100%;
+  height: 90vh;
+  position: relative;
 }
 
 .pricing-title {
+  padding-top: 124px;
   font-size: 2.285rem;
   color: #3D39B3;
   font-weight: black;
@@ -309,6 +334,8 @@ input{
   justify-content: space-between;
   width: 90%;
   padding: 5rem 0rem;
+  position: absolute;
+  bottom: -200px;
 }
 
 .features li, .features-wrapper  {
@@ -321,6 +348,7 @@ input{
   height: 419px;
   border-radius: 1.07rem;
   box-shadow: 5px 5px 2px #3D39B3;
+  background-color: #F9F9F9;
 }
 
 .network {
@@ -333,6 +361,7 @@ input{
   background-color: #F9F9F9;
   border-radius: 7px;
   border: 2px solid #3D39B3;
+  font-family: 'Roboto', sans-serif;
 }
 
 #network-even {
@@ -343,10 +372,12 @@ input{
 .price {
   font-size: 75px;
   margin: 1rem 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .price  > .per-month {
-  font-size: 20px
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .get-started {
@@ -357,12 +388,14 @@ input{
   font-weight: bold;
   background-color: #3D39B3;
   color: #F9F9F9;
+  font-family: 'Roboto', sans-serif;
 }
 
 #get-started {
   background-color: #F9F9F9;
   border: 2px solid #3D39B3;
   color: #3D39B3;
+  font-family: 'Roboto', sans-serif;
 }
 
 .clients {
