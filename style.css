@@ -318,6 +318,8 @@ input{
   text-align: center;
   width: 100%;
   height: 90vh;
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
@@ -336,6 +338,7 @@ input{
   padding: 5rem 0rem;
   position: absolute;
   bottom: -200px;
+  margin: 0 auto;
 }
 
 .features li, .features-wrapper  {
@@ -345,13 +348,14 @@ input{
 
 .pricing-box {
   width: 20%;
-  height: 419px;
+  /* height: 419px; */
   border-radius: 1.07rem;
   box-shadow: 5px 5px 2px #3D39B3;
   background-color: #F9F9F9;
 }
 
 .network {
+  margin-top: 61px;
   padding: .4rem .4rem;
   text-align: center;
   width: 103px;
@@ -398,6 +402,15 @@ input{
   font-family: 'Roboto', sans-serif;
 }
 
+
+.features {
+  font-family: 'Roboto', sans-serif;
+}
+
+.features-wrapper {
+  margin-bottom: 61px;
+}
+
 .clients {
   min-height: 40rem;
   padding: 10rem 1rem 0 1rem;
@@ -410,6 +423,7 @@ input{
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   margin-bottom: 109px;
+  margin-top: 137px;
 }
 
 .clients-wrapper {
@@ -427,5 +441,10 @@ input{
   height: 159px;
   background-color: #F9F9F9;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
