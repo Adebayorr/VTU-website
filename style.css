@@ -144,54 +144,111 @@ h1{
 #contact_us_text{
   padding-top: 3rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 .contact_us_section{
  height: 100vh;
- background-color: F9F9F9;
+ background-color: whitesmoke;
 }
 
 .contact_us_form_container{
-  background-color:  black;
   display: flex;
   flex-direction: row;
   width: 80%;
-  height: 70%;
+  height: 65%;
+  background-color: white;
 }
 .contact_div{
-  background-color: red;
-  margin-top: 5rem;
+  /* background-color: red; */
+  margin-top: 3.5rem;
   width: 40%;
-  height: 70%;
+  height: 60%;
+
+}
+
+.contact_div_wrapper{
   display: flex;
   flex-direction: row;
 }
+.contact_div p{
+  font-size: 18px;
+}
+
+
+
 
 .message_div{
-  background-color: red;
-  margin-top: 5rem;
+  /* background-color: red; */
+  margin-top: 3.5rem;
   width: 40%;
-  height: 70%;
+  height: 60%;
 }
 
-form{
+.message_div p{
+  font-size: 18px;
+}
+
+.form_div{
+  margin-top: 1.2rem;
+}
+
+.userDetails{
+  width: 12.7rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  border: 0;
+  
+  
+}
+
+.textarea_contact{
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+  justify-content: space-between;
+}
+
+textarea{
+  width: 100%;
+  background: whitesmoke;
+  border: 0;
+}
+
+.message_div_btn{
+  margin-top: 2rem;
+  padding: 0.6rem;
+  width: 8rem;
+  background-color: #3D39B3;
+  color: white;
+  border: 0;
+}
+
+
+.footer_section{
+  height: 40vh;
+  background: #3D39B3;
+  color: white;
+  text-align: center;
+}
+
+.footer_section h4, p{
+  padding-top: 2rem;
+}
+
+.footer_links{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
   margin-top: 1.5rem;
+  width: 50%;
 }
 
-input{
-  width: 6rem;
+.footer_links a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
-
-.userName{
-  margin-right: 2rem;
-}
-
-
-
-
-
-
-
-
 
 
 

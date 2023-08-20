@@ -175,26 +175,40 @@
 
     <!-- CONTACT US -->
     <section class="contact_us_section">
-        <h1 id="contact_us_text">CONTACT US</h1>
+        <h2 id="contact_us_text">CONTACT US</h2>
         <div class="contact_us_form_container">
             <div class="contact_div">
-                <div><p>Contact</p></div>
-                <div><P>Email</P></div>  
-            </div>
-            <div class="message_div">
-                <p>Get in touch</p>
+                <div class="contact_div_wrapper">
+                                    <div>
+                    <p>Contact</p>
+                     <input class="userDetails doted" type="tel" placeholder="+234" name="" id="num">
+                </div>
                 <div>
+                    <P>Email</P>
+                    <input class="userDetails doted" type="email" placeholder="@gmail.com" name="" id="">
+                </div>  
+                </div>
+
+                <div class="schedule">
+                    <p>Schedule</p>
+                    <p>24Hours/7 Days Open <br> Office Time: 10Am To 4Pm</p>
+                </div>
+            </div>
+
+            <div class="message_div">
+                <p>Get in Touch</p>
+                <div class="form_div">
                     <form action="">
-                        <div>
-                            <input class="userName" type="text"  placeholder="   Name">
-                            <input class="email" type="email" placeholder="   Email">
+                        <div class="textarea_contact">
+                            <input class="userName userDetails" type="text"  placeholder="   Name">
+                            <input class="email userDetails" type="email" placeholder="   Email">
                         </div>
                         <div>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <textarea name="" id=""  rows="9" placeholder="Message"></textarea>
                         </div>
                     </form>
                 </div>
-                <button>Send</button>
+                <button class="message_div_btn" type="submit">SEND</button>
             </div>
         </div>
     </section>
@@ -203,7 +217,18 @@
 
 
     <!-- FOOTER -->
-
+    <section class="footer_section">
+        <h4>Company Name/Logo</h4>
+        <p>Making it easier and faster to pay your bills within a click</p>
+        <div class="footer_links">
+            <a  href="http://">Our Services</a>
+            <a href="http://">Our Pricing</a>
+            <a href="http://">Our Clients</a>
+            <a href="http://">Contact Us</a>
+            <a href="http://">Privacy Policy</a>
+        </div>
+        <p>@2023 Logo Name. All rights reserved</p>
+    </section>
     <!-- FOOTER -->
 
 </body>
