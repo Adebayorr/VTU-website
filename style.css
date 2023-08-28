@@ -267,18 +267,18 @@ input{
 
   .hero-polygon {
     position: absolute;
-    right: 14%;
-    top: 12%;
-    width: 699px;
-    height: 588px;
+    right: 9%;
+    top: 10%;
+    width: 55vw;
+    height: 100vh;
     z-index: 2;
   }
 
   .hero-image {
     position: absolute;
     bottom: 0;
-    width: 426px;
-    height: 630px;
+    width: 60%;
+    height: 100vh;
     z-index: 3;
   }
 
@@ -308,7 +308,7 @@ input{
 
   .btn-second {
     border: 2px solid #3D39B3;
-    margin-left: 114px;
+    margin-left: 8.14rem;
     padding:.476rem 1.8rem;
     color: #3D39B3;
   }
@@ -324,7 +324,7 @@ input{
 }
 
 .pricing-title {
-  padding-top: 124px;
+  padding-top: 8.86rem;
   font-size: 2.285rem;
   color: #3D39B3;
   font-weight: black;
@@ -334,10 +334,17 @@ input{
 .pricing-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
   padding: 5rem 0rem;
   position: absolute;
-  bottom: -200px;
+  bottom: -14.3rem;
+  margin: 0 auto;
+}
+
+.pricing-sub {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -347,20 +354,20 @@ input{
 }
 
 .pricing-box {
-  width: 20%;
+  width: 23%;
   /* height: 419px; */
   border-radius: 1.07rem;
-  box-shadow: 5px 5px 2px #3D39B3;
+  box-shadow: 5px 8px 6px 2px #3D39B3;
   background-color: #F9F9F9;
 }
 
 .network {
-  margin-top: 61px;
+  margin-top: 4.36rem;
   padding: .4rem .4rem;
   text-align: center;
-  width: 103px;
+  width: 7.36rem;
   color: #3D39B3;
-  margin-bottom: 30px;
+  margin-bottom: 2.14rem;
   font-size: 16px;
   background-color: #F9F9F9;
   border-radius: 7px;
@@ -374,7 +381,7 @@ input{
 }
 
 .price {
-  font-size: 75px;
+  font-size: 5.36rem;
   margin: 1rem 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -386,7 +393,7 @@ input{
 
 .get-started {
   all: unset;
-  width: 150px;
+  width: 10.71rem;
   margin: 1rem 0;
   padding: .6rem .4rem;
   font-weight: bold;
@@ -408,7 +415,7 @@ input{
 }
 
 .features-wrapper {
-  margin-bottom: 61px;
+  margin-bottom: 4.36rem;
 }
 
 .clients {
@@ -422,8 +429,8 @@ input{
   color: #F9F9F9;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  margin-bottom: 109px;
-  margin-top: 137px;
+  margin-bottom: 7.79rem;
+  margin-top: 9.79rem;
 }
 
 .clients-wrapper {
@@ -431,14 +438,14 @@ input{
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  gap: 60px;
+  gap: 4.29rem;
   width: 90%;
 }
 
 .client {
   /* padding: 2rem; */
- width: 159px;
-  height: 159px;
+  width: 11.36rem;
+  height: 11.36rem;
   background-color: #F9F9F9;
   border-radius: 15px;
   display: flex;
