@@ -214,22 +214,24 @@ li.link {
   position: relative;
 }
 
-.hero-polygon {
-  position: absolute;
-  right: 14%;
-  top: 12%;
-  width: 699px;
-  height: 588px;
-  z-index: 2;
-}
+  .hero-polygon {
+    position: absolute;
+    right: 9%;
+    top: 10%;
+    width: 55vw;
+    height: 100vh;
+    z-index: 2;
+  }
 
-.hero-image {
-  position: absolute;
-  bottom: 0;
-  width: 426px;
-  height: 630px;
-  z-index: 3;
-}
+  .hero-image {
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: 100vh;
+    z-index: 3;
+  }
+
+
 
 .btn {
   /* all: unset; */
@@ -252,12 +254,12 @@ li.link {
   padding: 0.6rem 1.8rem;
 }
 
-.btn-second {
-  border: 2px solid #3d39b3;
-  margin-left: 114px;
-  padding: 0.476rem 1.8rem;
-  color: #3d39b3;
-}
+  .btn-second {
+    border: 2px solid #3D39B3;
+    margin-left: 8.14rem;
+    padding:.476rem 1.8rem;
+    color: #3D39B3;
+  }
 
 .our-prices {
   background: #f9f9f9;
@@ -270,7 +272,7 @@ li.link {
 }
 
 .pricing-title {
-  padding-top: 124px;
+  padding-top: 8.86rem;
   font-size: 2.285rem;
   color: #3d39b3;
   font-weight: black;
@@ -280,10 +282,17 @@ li.link {
 .pricing-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
   padding: 5rem 0rem;
   position: absolute;
-  bottom: -200px;
+  bottom: -14.3rem;
+  margin: 0 auto;
+}
+
+.pricing-sub {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -294,20 +303,20 @@ li.link {
 }
 
 .pricing-box {
-  width: 20%;
+  width: 23%;
   /* height: 419px; */
   border-radius: 1.07rem;
-  box-shadow: 5px 5px 2px #3d39b3;
-  background-color: #f9f9f9;
+  box-shadow: 5px 8px 6px 2px #3D39B3;
+  background-color: #F9F9F9;
 }
 
 .network {
-  margin-top: 61px;
-  padding: 0.4rem 0.4rem;
+  margin-top: 4.36rem;
+  padding: .4rem .4rem;
   text-align: center;
-  width: 103px;
-  color: #3d39b3;
-  margin-bottom: 30px;
+  width: 7.36rem;
+  color: #3D39B3;
+  margin-bottom: 2.14rem;
   font-size: 16px;
   background-color: #f9f9f9;
   border-radius: 7px;
@@ -321,7 +330,7 @@ li.link {
 }
 
 .price {
-  font-size: 75px;
+  font-size: 5.36rem;
   margin: 1rem 0;
   font-family: "Roboto", sans-serif;
 }
@@ -333,7 +342,7 @@ li.link {
 
 .get-started {
   all: unset;
-  width: 150px;
+  width: 10.71rem;
   margin: 1rem 0;
   padding: 0.6rem 0.4rem;
   font-weight: bold;
@@ -354,7 +363,7 @@ li.link {
 }
 
 .features-wrapper {
-  margin-bottom: 61px;
+  margin-bottom: 4.36rem;
 }
 
 .clients {
@@ -368,8 +377,8 @@ li.link {
   color: #f9f9f9;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  margin-bottom: 109px;
-  margin-top: 137px;
+  margin-bottom: 7.79rem;
+  margin-top: 9.79rem;
 }
 
 .clients-wrapper {
@@ -377,15 +386,15 @@ li.link {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  gap: 60px;
+  gap: 4.29rem;
   width: 90%;
 }
 
 .client {
   /* padding: 2rem; */
-  width: 159px;
-  height: 159px;
-  background-color: #f9f9f9;
+  width: 11.36rem;
+  height: 11.36rem;
+  background-color: #F9F9F9;
   border-radius: 15px;
   display: flex;
   justify-content: center;
