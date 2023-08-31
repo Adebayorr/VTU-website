@@ -160,12 +160,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 40;
 }
 
 .logo {
   font-size: 25px;
   font-family: "Roboto", sans-serif;
   color: #1e1e1e;
+  cursor: pointer;
 }
 
 nav {
@@ -184,6 +187,9 @@ li.link {
 .link a {
   color: #1e1e1e;
   text-decoration: none;
+  cursor: pointer;
+  display: flex;
+ 
 }
 
 .hero {
@@ -285,7 +291,7 @@ li.link {
   width: 95%;
   padding: 5rem 0rem;
   position: absolute;
-  bottom: -14.3rem;
+  bottom: -20.3rem;
   margin: 0 auto;
 }
 
@@ -296,15 +302,21 @@ li.link {
   margin: 0 auto;
 }
 
-.features li,
+.features li {
+  text-align: left;
+  margin: .4rem 0;
+ }
+
+
 .features-wrapper {
-  list-style: none;
-  margin: 0;
+  /* list-style: none; */
+  width: 60%;
+  margin: 0 0 0 2.3rem;
 }
 
 .pricing-box {
   width: 23%;
-  /* height: 419px; */
+  min-width: 16.1rem;
   border-radius: 1.07rem;
   box-shadow: 5px 8px 6px 2px #3D39B3;
   background-color: #F9F9F9;
@@ -315,18 +327,19 @@ li.link {
   padding: .4rem .4rem;
   text-align: center;
   width: 7.36rem;
-  color: #3D39B3;
+  color: #f9f9f9;
+  background: #3d39b3;
   margin-bottom: 2.14rem;
   font-size: 16px;
-  background-color: #f9f9f9;
   border-radius: 7px;
-  border: 2px solid #3d39b3;
   font-family: "Roboto", sans-serif;
 }
 
 #network-even {
-  color: #f9f9f9;
-  background: #3d39b3;
+  color: #3D39B3;
+  background-color: #f9f9f9;
+  border: 2px solid #3d39b3;
+
 }
 
 .price {
@@ -360,15 +373,16 @@ li.link {
 
 .features {
   font-family: "Roboto", sans-serif;
+  align-self: flex-end;
 }
 
 .features-wrapper {
-  margin-bottom: 4.36rem;
+  margin-bottom: 3.36rem;
 }
 
 .clients {
   min-height: 40rem;
-  padding: 10rem 1rem 0 1rem;
+  padding: 10rem 1rem 5rem 1rem;
   text-align: center;
   background: linear-gradient(200deg, #0803a4, #284cc4, #04006e);
 }
@@ -399,4 +413,9 @@ li.link {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bottom.b1 {
+  justify-self: flex-end;
+  /* display: none; */
 }
