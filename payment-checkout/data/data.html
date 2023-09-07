@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
+    <!-- <header>
         <h1 class="logo">FastTrak</h1>
         <nav class="navbar">
             <ul class="navlinks">
@@ -23,46 +23,50 @@
                 <li class="link"><a href="#">CONTACTS</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <section class="checkout-wrapper">
         <div class="checkout">
-            <h2 class="checkout-tite">AIRTIME</h2>
-            <div class="select-options">
-                <select name="" id="" class="options">
-                    <option value=""> SELECT OPTION</option>
-                    <option value="mtn" class="MTN">MTN</option>
-                    <option value="glo" class="GLO">GLO</option>
-                    <option value="airtel" class="AIRTEL">AIRTEL</option>
-                    <option value="9mobile" class="9MOBILE">9MOBILE</option>
-                </select>
-            </div>
-            <div class="option-icons">
-                <div class="netwrk">
-                    <img src="../../design assets/Mask Group 43.png" alt="mtn logo">
+            <form action="" method="post">
+                <h2 class="checkout-title">AIRTIME</h2>
+                <div class="select-options">
+                    <div name="" id="" class="options">
+                        <p style="margin: 0; padding-top: 0; cursor: default;">SELECT OPTION</p>
+                        <img style="width: 40px; margin: 0 ;" src="../../design assets/Group 185.png" alt="">
+                        <!-- <option value=""> SELECT OPTION</option>
+                        <option value="mtn" class="MTN">MTN</option>
+                        <option value="glo" class="GLO">GLO</option>
+                        <option value="airtel" class="AIRTEL">AIRTEL</option>
+                        <option value="9mobile" class="9MOBILE">9MOBILE</option> -->
+                    </div>
                 </div>
-                <div class="netwrk">
-                    <img src="../../design assets/Mask Group 44.png" alt="airtel logo">
+                <div class="option-icons">
+                    <div class="netwrk">
+                        <img src="../../design assets/Mask Group 43.png" alt="mtn logo">
+                    </div>
+                    <div class="netwrk">
+                        <img src="../../design assets/Mask Group 44.png" alt="airtel logo">
+                    </div>
+                    <div class="netwrk">
+                        <img src="../../design assets/Mask Group 45.png" alt="glo logo">
+                    </div>
+                    <div class="netwrk" data-testid="">
+                        <img src="../../design assets/Mask Group 46.png" alt="9mobile logo">
+                    </div>
                 </div>
-                <div class="netwrk">
-                    <img src="../../design assets/Mask Group 45.png" alt="glo logo">
+                <div class="number-wrapper">
+                    <div class="net-logo">
+                        <img src="../../design assets/Mask Group 43.png" alt="">
+                        <!-- <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt=""> -->
+                    </div>
+                    <input type="number" name="phone" class="phone" placeholder="Phone Number" required >
                 </div>
-                <div class="netwrk" data-testid="">
-                    <img src="../../design assets/Mask Group 46.png" alt="9mobile logo">
+                <div class="amount-wrapper">
+                    <input type="number" class="amount" placeholder="Amount" required>
                 </div>
-            </div>
-            <div class="number-wrapper">
-                <div class="net-logo">
-                    <img src="../../design assets/Mask Group 43.png" alt="">
-                    <!-- <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt=""> -->
-                </div>
-                <input type="tel" name="phone" class="phone" placeholder="Phone Number" required >
-            </div>
-            <div class="amount-wrapper">
-                <input type="number" class="amount" placeholder="Amount" required>
-            </div>
-            <button class="pay">PAY</button>
+                <button type="submit" class="pay">PAY</button>
+            </form>
         </div>
     </section>
 
