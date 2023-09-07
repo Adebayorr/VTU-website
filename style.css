@@ -57,6 +57,10 @@ h1 {
   background-color: whitesmoke;
 }
 
+.contact_us_section h2,p{
+  font-family: "Roboto", sans-serif;
+}
+
 .contact_us_form_container {
   display: flex;
   flex-direction: row;
@@ -80,8 +84,14 @@ h1 {
   font-size: 18px;
 }
 
+.schedule{
+  width: 40%;
+  margin-left: 3rem;
+}
+
+
+
 .message_div {
-  /* background-color: red; */
   margin-top: 3.5rem;
   width: 40%;
   height: 60%;
@@ -123,6 +133,7 @@ textarea {
   background-color: #3d39b3;
   color: white;
   border: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer_section {
@@ -134,6 +145,7 @@ textarea {
 
 .footer_section h4,
 p {
+  font-family: "Roboto", sans-serif;
   padding-top: 2rem;
 }
 
