@@ -80,8 +80,14 @@ h1 {
   font-size: 18px;
 }
 
+.schedule{
+  width: 40%;
+  margin-left: 3rem;
+}
+
+
+
 .message_div {
-  /* background-color: red; */
   margin-top: 3.5rem;
   width: 40%;
   height: 60%;
