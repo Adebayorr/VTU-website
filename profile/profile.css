@@ -58,7 +58,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 111px;
+    margin-top: 50px;
     
 }
 
@@ -111,4 +111,58 @@ header {
 
 .pageLink{
     color: white;
+}
+
+
+.walletDetailsSection{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 40vh;
+  background: white;
+  border-radius: 15px;
+}
+
+.walletDetailsCol1{
+ 
+  height: 100%;
+  margin-left: 5rem;
+}
+
+.walletId{
+  display: flex;
+  flex-direction: column;
+  width: 147px;
+  height: 90px;
+  padding-top: 2rem;
+}
+
+.walletBalance{
+  display: flex;
+  flex-direction: column;
+  width: 147px;
+  height: 90px;
+  padding-top: 4rem;
+}
+
+.walletDetailsCol2{
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bankImage{
+  background-image: url('./images/Mask\ Group\ 49.png');
+  background-size: cover;
+  width: 86px;
+  height: 86px;
+}
+
+
+.services{
+  height: 176px;
+  
 }
