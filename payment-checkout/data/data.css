@@ -114,6 +114,7 @@ h2.checkout-title {
     border: none;
     font-size: 1.1rem;
     width: 80%;
+    color: #a5a5a5;
 } 
 
 .phone:focus {
@@ -121,11 +122,14 @@ h2.checkout-title {
     outline: none;
 }
 
+input::placeholder, select::placeholder {
+    color: #a5a5a5;
+}
+
 .amount {
     width: 100%;
     margin-top: 2rem;
-    padding: 1.5rem;
-    height: 54px;
+    padding: 1.2rem;
     border: none;
     box-shadow: 0px 3px 6px #00000034;
     border-radius: .8rem;

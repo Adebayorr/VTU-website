@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3D39B3;
+}
+
+
+
+header {
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #3D39B3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 40;
+  }
+
+ 
+
+.logo {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: #1e1e1e;
+    cursor: pointer;
+  }
+  
+  nav {
+    width: 30%;
+  }
+  
+  nav.navbar > ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li.link {
+    list-style: none;
+  }
+  
+  .link a {
+    color: #1e1e1e;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+   
+  }
+
+.siteNameDiv{
+    height: 42px;
+    width: 389px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.siteNameDiv p{
+    /* text-align: center; */
+}
+
+.profileCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;
+    margin-top: 19px;
+    height: 176px;
+    color: white;
+}
+
+.userCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 401px;
+    height: 176px;
+}
+
+.cardImage{
+    background-image: url('./images/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer.png');
+    background-size: cover;
+    width: 175px;
+    height: 175px;
+}
+
+.profileContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 33px;
+    
+    
+}
+
+ a{
+    color: white;
+}
+
+.logo{
+    color: white;
+}
+
+.pageLink{
+    color: white;
+}
+
+
+.walletDetailsSection{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 40vh;
+  background: white;
+  border-radius: 15px;
+}
+
+.walletDetailsCol1{
+ 
+  height: 100%;
+  margin-left: 5rem;
+}
+
+.walletId{
+  display: flex;
+  flex-direction: column;
+  width: 147px;
+  height: 90px;
+  padding-top: 2rem;
+}
+
+.walletBalance{
+  display: flex;
+  flex-direction: column;
+  width: 147px;
+  height: 90px;
+  padding-top: 4rem;
+}
+
+.walletDetailsCol2{
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bankImage{
+  background-image: url('./images/Mask\ Group\ 49.png');
+  background-size: cover;
+  width: 86px;
+  height: 86px;
+}
+
+
+.services{
+  height: 176px;
+  
+}

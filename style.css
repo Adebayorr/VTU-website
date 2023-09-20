@@ -70,29 +70,36 @@ h1 {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .contact_div {
-  /* background-color: red; */
-  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  margin-top: 2rem;
   width: 40%;
   height: 60%;
 }
 
 .contact_div_wrapper {
-  display: flex;
-  flex-direction: row;
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .contact_div p {
   font-size: 18px;
 }
 
+.contactUsT{
+  font-size: 6px;
+}
+
 .schedule{
-  width: 40%;
-  margin-left: 3rem;
+  width: 100%;
 }
 
 
 
 .message_div {
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   width: 40%;
   height: 60%;
 }
@@ -101,8 +108,18 @@ h1 {
   font-size: 18px;
 }
 
+.message_div input::placeholder{
+  padding-top: 13px;
+  padding-left: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
 .form_div {
   margin-top: 1.2rem;
+}
+
+.textarea_contact{
+  display: flex;
 }
 
 .userDetails {
@@ -113,11 +130,29 @@ h1 {
   border: 0;
 }
 
+textarea{
+  resize: none;
+  
+}
+
+textarea:focus{
+  outline: none;
+}
+
+
+
+.message_div textarea::placeholder{
+  font-family: "Roboto", sans-serif;
+  padding-left: 13px;
+  padding-top: 13px;
+}
+
 .textarea_contact {
   display: flex;
   flex-direction: row;
   gap: 1.8rem;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 textarea {
@@ -127,7 +162,7 @@ textarea {
 }
 
 .message_div_btn {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   padding: 0.6rem;
   width: 8rem;
   background-color: #3d39b3;
