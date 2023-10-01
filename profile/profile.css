@@ -163,6 +163,28 @@ header {
 
 
 .services{
-  height: 176px;
+  height: 60vh;
   
+}
+
+.services h1{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.services_container{
+  display: flex;
+  margin-top: 5rem;
+  
+}
+
+.service_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  background: white;
+  border-radius: 1rem;
 }
