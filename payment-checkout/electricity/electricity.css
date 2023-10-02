@@ -277,11 +277,16 @@ input[type=number] {
     color: white;
   }
   
-  .footer_section h4,
-  p {
+  .footer_section h4 {
     font-family: "Roboto", sans-serif;
     padding-top: 2rem;
     color: white;
+  }
+
+  .footer_section p{
+        font-family: "Roboto", sans-serif;
+        padding-top: 2rem;
+        color: white;
   }
   
   .footer_links {
