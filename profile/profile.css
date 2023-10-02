@@ -188,3 +188,29 @@ header {
   background: white;
   border-radius: 1rem;
 }
+
+.footer_section {
+  height: 50vh;
+  background: white;
+  text-align: center;
+}
+
+.footer_section h4,
+p {
+  font-family: "Roboto", sans-serif;
+  padding-top: 2rem;
+  color: black;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: -0.1rem;
+  width: 50%;
+}
+
+.footer_links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
