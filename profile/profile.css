@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #3D39B3;
-}
 
+
+body {
+  background: #3D39B3;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
 
 
 header {
