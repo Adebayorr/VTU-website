@@ -65,9 +65,7 @@ header {
     
 }
 
-.siteNameDiv p{
-    /* text-align: center; */
-}
+
 
 .profileCard{
     display: flex;
@@ -173,6 +171,7 @@ header {
 .services h1{
   text-align: center;
   padding-top: 2rem;
+  color: white;
 }
 
 .services_container{
