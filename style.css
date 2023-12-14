@@ -209,6 +209,7 @@ header {
   align-items: center;
   position: relative;
   z-index: 40;
+  height: 6rem;
 }
 
 .logo {
@@ -219,23 +220,28 @@ header {
 }
 
 nav {
-  width: 30%;
+  width: 55%;
 }
 
 nav.navbar > ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 0;
+  margin-left: auto;
+  width: 80%;
 }
 
 li.link {
   list-style: none;
+  margin: 0;
 }
 
 .link a {
   color: #1e1e1e;
   text-decoration: none;
   cursor: pointer;
-  display: flex;
+  padding: 0.2rem 0.4rem;
  
 }
 
@@ -249,6 +255,7 @@ li.link {
 
 .hero-side {
   width: 50%;
+  min-width: 500px;
 }
 
 .hero-left {
@@ -267,14 +274,14 @@ li.link {
   position: relative;
 }
 
-  .hero-polygon {
-    position: absolute;
-    right: 9%;
-    top: 10%;
-    width: 55vw;
-    height: 100vh;
-    z-index: 2;
-  }
+.hero-polygon {
+  position: absolute;
+  right: 9%;
+  top: 10%;
+  width: 55vw;
+  height: 100vh;
+  z-index: 2;
+}
 
   .hero-image {
     position: absolute;
@@ -307,12 +314,12 @@ li.link {
   padding: 0.6rem 1.8rem;
 }
 
-  .btn-second {
-    border: 2px solid #3D39B3;
-    margin-left: 8.14rem;
-    padding:.476rem 1.8rem;
-    color: #3D39B3;
-  }
+.btn-second {
+  border: 2px solid #3D39B3;
+  margin-left: 5.14rem;
+  padding:.476rem 1.8rem;
+  color: #3D39B3;
+}
 
 .our-prices {
   background: #f9f9f9;
