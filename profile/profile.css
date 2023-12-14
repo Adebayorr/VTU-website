@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #3D39B3;
-}
 
+
+body {
+  background: #3D39B3;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
 
 
 header {
@@ -58,13 +61,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 70px;
     
 }
 
-.siteNameDiv p{
-    /* text-align: center; */
-}
+
 
 .profileCard{
     display: flex;
@@ -163,6 +164,55 @@ header {
 
 
 .services{
-  height: 176px;
+  height: 60vh;
   
+}
+
+.services h1{
+  text-align: center;
+  padding-top: 2rem;
+  color: white;
+}
+
+.services_container{
+  display: flex;
+  margin-top: 5rem;
+  
+}
+
+.service_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  background: white;
+  border-radius: 1rem;
+}
+
+.footer_section {
+  height: 50vh;
+  background: white;
+  text-align: center;
+}
+
+.footer_section h4,
+p {
+  font-family: "Roboto", sans-serif;
+  padding-top: 2rem;
+  color: black;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: -0.1rem;
+  width: 50%;
+}
+
+.footer_links a {
+  text-decoration: none;
+  font-size: 1.2rem;
 }

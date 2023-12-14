@@ -172,7 +172,7 @@ textarea {
 }
 
 .footer_section {
-  height: 40vh;
+  height: 50vh;
   background: #3d39b3;
   color: white;
   text-align: center;
@@ -188,7 +188,7 @@ p {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: -0.1rem;
   width: 50%;
 }
 

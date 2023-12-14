@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="86" viewBox="0 0 86 86">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_563" data-name="Rectangle 563" width="86" height="86" transform="translate(345 1272)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_51" data-name="Mask Group 51" transform="translate(-345 -1272)" clip-path="url(#clip-path)">
+    <path id="phone-svgrepo-com" d="M12.9,23.65A66.65,66.65,0,0,0,79.55,90.3q2.491,0,4.938-.18c1.871-.137,2.806-.206,3.658-.7a4.558,4.558,0,0,0,1.727-1.859c.427-.885.427-1.917.427-3.982V71.469a9.8,9.8,0,0,0-.286-3.348,4.3,4.3,0,0,0-1.194-1.7A9.805,9.805,0,0,0,85.771,65L71.982,59.989c-1.9-.69-2.848-1.035-3.748-.977a4.3,4.3,0,0,0-2.208.783c-.736.522-1.256,1.388-2.295,3.12L60.2,68.8A52.034,52.034,0,0,1,34.4,43l5.885-3.531c1.732-1.039,2.6-1.559,3.12-2.3a4.3,4.3,0,0,0,.783-2.207c.058-.9-.287-1.85-.977-3.748L38.2,17.429a9.805,9.805,0,0,0-1.413-3.049,4.3,4.3,0,0,0-1.7-1.194,9.8,9.8,0,0,0-3.348-.286H19.617c-2.065,0-3.1,0-3.982.427a4.56,4.56,0,0,0-1.859,1.728c-.49.852-.559,1.787-.7,3.658Q12.9,21.158,12.9,23.65Z" transform="translate(336.4 1263.4)" fill="none" stroke="#3d39b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.6"/>
+  </g>
+</svg>
