@@ -15,7 +15,6 @@ Color ==> Primary = #3D39B3; white = #F9F9F9; links and logo = #1E1E1E;
 
 body {
   width: 100vw;
-  height: 100vh;
 }
 
 .our-services {
@@ -232,6 +231,10 @@ nav.navbar > ul {
   width: 80%;
 }
 
+.menu {
+  display: none;
+}
+
 li.link {
   list-style: none;
   margin: 0;
@@ -341,12 +344,14 @@ li.link {
 
 .pricing-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 95%;
-  padding: 5rem 0rem;
+  padding: 3rem 0rem;
   position: absolute;
   bottom: -20.3rem;
   margin: 0 auto;
+  gap: 2rem;
 }
 
 .pricing-sub {
@@ -369,15 +374,16 @@ li.link {
 }
 
 .pricing-box {
-  width: 23%;
-  min-width: 16.1rem;
+  width: 20%;
+  min-width: 260px;
   border-radius: 1.07rem;
   box-shadow: 5px 8px 6px 2px #3D39B3;
   background-color: #F9F9F9;
+  margin: 0;
 }
 
 .network {
-  margin-top: 4.36rem;
+  margin-top: 3rem;
   padding: .4rem .4rem;
   text-align: center;
   width: 7.36rem;
@@ -400,6 +406,7 @@ li.link {
   font-size: 5.36rem;
   margin: 1rem 0;
   font-family: "Roboto", sans-serif;
+  padding-top: 0.5rem;
 }
 
 .price > .per-month {
@@ -470,3 +477,88 @@ li.link {
   margin: 0 0;
 }
 
+@media screen and (max-width: 500px) {
+  .hero-left .hero-title {
+    font-size: 2rem;
+  }
+
+  .client {
+    width: 40%;
+  }
+
+  .hero-left {
+    all: unset;
+    width: 100%;
+    margin: 0 1rem;
+    padding: 8.5rem 0;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  nav {
+    justify-content: flex-end;
+  }
+  nav > ul.navlinks {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .hero-left {
+    all: unset;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8.5rem 0;
+  }
+
+  
+}
+@media screen and (max-width: 1150px) {
+  .our-prices {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .pricing-wrapper {
+    position: relative;
+    margin: 0 auto;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+
+  .pricing-box {
+    margin: 0;
+    width: 30%;
+    min-width: 260px;
+    border-radius: 1.07rem;
+    box-shadow: 5px 8px 6px 2px #3D39B3;
+    background-color: #F9F9F9;
+  }
+
+  .pricing-title {
+    padding: 0;
+    margin-top: 6rem;
+  }
+  
+  .clients {
+    padding: 2rem 0 2rem 0;
+  }
+  .clients-title {
+    margin: 3rem auto;
+  }
+}
