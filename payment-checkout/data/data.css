@@ -15,7 +15,8 @@ body {
 
  .checkout {
     padding: 40px 100px;
-     width: 50%; 
+    width: 50%; 
+    min-width: 580px;
     background-color: #FFFFFF;
     margin: .8rem;
     border-radius: 2rem;
@@ -164,4 +165,17 @@ input[type=number] {
 .pay:focus {
     border: none;
     outline: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .checkout-wrapper {
+        width: 100%;    
+    }
+    .checkout {
+        padding: 40px 20px;
+        width: 100%;
+        min-width: unset;
+        margin: 0;
+    }
 }
