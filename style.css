@@ -562,3 +562,9 @@ li.link {
     margin: 3rem auto;
   }
 }
+
+
+.hero-side {
+  height: 5rem;
+  background: red;
+}
