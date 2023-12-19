@@ -216,6 +216,8 @@ header {
   font-family: "Roboto", sans-serif;
   color: #1e1e1e;
   cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav {
@@ -416,13 +418,17 @@ li.link {
 
 .get-started {
   all: unset;
-  width: 10.71rem;
+  width: 8.71rem;
   margin: 1rem 0;
   padding: 0.6rem 0.4rem;
   font-weight: bold;
   background-color: #3d39b3;
   color: #f9f9f9;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #get-started {
@@ -504,8 +510,9 @@ li.link {
 
   .menu {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
   }
 
   .hero-right {
