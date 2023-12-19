@@ -55,36 +55,38 @@ header {
 
   /* Body */
 
+  /* .input-contents{
+    background: red;
+    
+  } */
+
   .profile_wrapper{
     background:  #3D39B3;
     color: white;
     border-radius: 1rem;
     margin-top: 1rem;
     width: 90%;
-    /* max-width: 50vw; */
-    height: 80vh;
+    max-width: 50vw;
+    /* height: 80vh; */
   }
 
   .profile_wrapper h1{
-    font-size: 1.5rem;
-    width: 80%;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    text-align: center;
     /* padding-top: 2rem; */
     /* background: red; */
   }
 
-  .profile_wrapper p{
-    /* background: grey; */
-    font-size: 0.8rem;
-    padding-top: 0.5rem;
-    width: 80%;
-  }
 
   .inputs{
-    margin-top: 2rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ; */
+    margin-top: 1rem;
     /* background: green; */
     width: 80%;
-    height: 80%;
+    
   }
 
   .input_div{
