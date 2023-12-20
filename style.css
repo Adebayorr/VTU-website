@@ -19,7 +19,7 @@ body {
 
 .our-services {
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   background-color: #3d39b3;
 }
 
@@ -28,16 +28,22 @@ body {
 }
 
 .our_services_svg_div {
-  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 75vh;
   margin-top: 3rem;
-  position: absolute;
-  left: 15%;
-  z-index: 1;
+  /* background: green; */
+
 }
 
 .our_services_svg {
   margin-top: -17vh;
+}
+
+.mobile_our_services_svg{
+  display: none;
 }
 
 h1 {
@@ -526,8 +532,22 @@ li.link {
     padding: 8.5rem 0;
   }
 
-  
+
+  /* our services */
+  .mobile_our_services_svg{
+    width: 15rem;
+    display: block;
+  }
+
+  .our_services_svg{
+    display: none;
+  }
+ 
 }
+
+
+
+
 @media screen and (max-width: 1150px) {
   .our-prices {
     width: 100%;
